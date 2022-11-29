@@ -1,5 +1,11 @@
-function addAB(a, b, c) {
+
+function addABC(a, b, c) {
 	return a + b + c;
 }
 
-console.log(addAB(10, 20))
+function mulAB(a, b) {
+	return a * b
+}
+
+console.log(addABC(10, 20, 30))
+console.log(mulAB(10, 20))
